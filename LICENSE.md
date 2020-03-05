@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2019 High Field MRI Group, UMC Utrecht
+Copyright (c) 2020 High Field MRI Group, UMC Utrecht
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this hardware, software, and associated documentation files (the "Product"),
