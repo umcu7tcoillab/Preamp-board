@@ -17,7 +17,6 @@ $Comp
 L Device:L_Small L2
 U 1 1 5E8F5754
 P 5800 4200
-AR Path="/5E8F5754" Ref="L2"  Part="1" 
 F 0 "L2" V 5650 4250 50  0000 R CNN
 F 1 "1u" V 5756 4245 50  0000 R CNN
 F 2 "Inductor_SMD:L_1812_4532Metric" H 5800 4200 50  0001 C CNN
@@ -29,7 +28,6 @@ $Comp
 L Device:C_Small C2
 U 1 1 5E8F575A
 P 6200 4350
-AR Path="/5E8F575A" Ref="C2"  Part="1" 
 F 0 "C2" H 6050 4350 50  0000 C CNN
 F 1 "10n" H 6050 4450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 4350 50  0001 C CNN
@@ -41,7 +39,6 @@ $Comp
 L Device:L_Small L1
 U 1 1 5E8F5766
 P 6050 4200
-AR Path="/5E8F5766" Ref="L1"  Part="1" 
 F 0 "L1" V 5900 4250 50  0000 R CNN
 F 1 "1u" V 6006 4245 50  0000 R CNN
 F 2 "Inductor_SMD:L_1812_4532Metric" H 6050 4200 50  0001 C CNN
@@ -60,7 +57,6 @@ $Comp
 L Connector:Conn_Coaxial J1
 U 1 1 5E8F5790
 P 5100 4450
-AR Path="/5E8F5790" Ref="J1"  Part="1" 
 F 0 "J1" V 4982 4550 50  0000 L CNN
 F 1 "Coil" V 5250 4350 50  0000 L CNN
 F 2 "_Custom:BNC_SMA_Vertical" H 5100 4450 50  0001 C CNN
@@ -72,7 +68,6 @@ $Comp
 L _Custom:Preamp U1
 U 1 1 5E91DCCC
 P 5100 3000
-AR Path="/5E91DCCC" Ref="U1"  Part="1" 
 F 0 "U1" V 5250 3200 50  0000 R CNN
 F 1 "Preamp" V 5250 2900 50  0000 R CNN
 F 2 "_Custom:Preamp_socket" H 5450 2700 50  0001 L CNN
@@ -90,7 +85,6 @@ $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5EAB7577
 P 5100 2400
-AR Path="/5EAB7577" Ref="J2"  Part="1" 
 F 0 "J2" H 4950 2300 50  0000 L CNN
 F 1 "Rx" H 4850 2550 50  0000 L CNN
 F 2 "_Custom:BNC_SMA_Vertical" H 5100 2400 50  0001 C CNN
@@ -108,7 +102,6 @@ $Comp
 L Device:C_Small C1
 U 1 1 5EC62553
 P 5100 3900
-AR Path="/5EC62553" Ref="C1"  Part="1" 
 F 0 "C1" H 5000 3800 50  0000 C CNN
 F 1 "T/pi" H 5000 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5100 3900 50  0001 C CNN
@@ -117,10 +110,9 @@ F 3 "~" H 5100 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:BAV99 D?
+L Diode:BAV99 D1
 U 1 1 5EC649F3
 P 4250 3400
-AR Path="/5EC649F3" Ref="D1"  Part="1" 
 F 0 "D1" V 4350 3250 50  0000 L CNN
 F 1 "BAV99" V 4600 3300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 2900 50  0001 C CNN
@@ -129,10 +121,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4250 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:BAV99 D?
+L Diode:BAV99 D2
 U 1 1 5EC63BE8
 P 4550 3400
-AR Path="/5EC63BE8" Ref="D2"  Part="1" 
 F 0 "D2" V 4650 3250 50  0000 L CNN
 F 1 "BAV99" V 4900 3300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4550 2900 50  0001 C CNN
@@ -252,7 +243,6 @@ $Comp
 L Device:C_Small C3
 U 1 1 5E4EF7CF
 P 5950 1950
-AR Path="/5E4EF7CF" Ref="C3"  Part="1" 
 F 0 "C3" H 5900 1800 50  0000 C CNN
 F 1 "10n" H 5850 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5950 1950 50  0001 C CNN
@@ -264,7 +254,6 @@ $Comp
 L Device:C_Small C4
 U 1 1 5E4F08D1
 P 6200 1950
-AR Path="/5E4F08D1" Ref="C4"  Part="1" 
 F 0 "C4" H 6150 1800 50  0000 C CNN
 F 1 "10n" H 6100 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 1950 50  0001 C CNN
@@ -276,7 +265,6 @@ $Comp
 L Device:C_Small C5
 U 1 1 5E4F0D52
 P 6450 1950
-AR Path="/5E4F0D52" Ref="C5"  Part="1" 
 F 0 "C5" H 6400 1800 50  0000 C CNN
 F 1 "10n" H 6350 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6450 1950 50  0001 C CNN
@@ -288,7 +276,6 @@ $Comp
 L Device:C_Small C6
 U 1 1 5E4F0F38
 P 6700 1950
-AR Path="/5E4F0F38" Ref="C6"  Part="1" 
 F 0 "C6" H 6650 1800 50  0000 C CNN
 F 1 "10n" H 6600 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 1950 50  0001 C CNN
@@ -324,10 +311,9 @@ $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5E4FD6DB
 P 6350 3850
-AR Path="/5E4FD6DB" Ref="J3"  Part="1" 
 F 0 "J3" V 6600 3800 50  0000 L CNN
 F 1 "DC" V 6500 3800 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134-16_Vertical" H 6350 3850 50  0001 C CNN
+F 2 "_Custom:SMA_Amphenol_132134-16_Vertical" H 6350 3850 50  0001 C CNN
 F 3 " ~" H 6350 3850 50  0001 C CNN
 	1    6350 3850
 	0    -1   -1   0   
@@ -384,7 +370,6 @@ $Comp
 L Device:C_Small C9
 U 1 1 5E4F0499
 P 4900 4050
-AR Path="/5E4F0499" Ref="C9"  Part="1" 
 F 0 "C9" H 4800 3950 50  0000 C CNN
 F 1 "pi" V 4850 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4900 4050 50  0001 C CNN
@@ -396,7 +381,6 @@ $Comp
 L Device:C_Small C8
 U 1 1 5E4F0C49
 P 4900 3750
-AR Path="/5E4F0C49" Ref="C8"  Part="1" 
 F 0 "C8" H 4800 3650 50  0000 C CNN
 F 1 "T/pi" V 4950 3900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4900 3750 50  0001 C CNN
@@ -408,7 +392,6 @@ $Comp
 L Device:C_Small C7
 U 1 1 5E4F17AB
 P 5100 3600
-AR Path="/5E4F17AB" Ref="C7"  Part="1" 
 F 0 "C7" H 5000 3500 50  0000 C CNN
 F 1 "T/10n" H 4950 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5100 3600 50  0001 C CNN
