@@ -339,7 +339,7 @@ U 1 1 5E5022B7
 P 6900 3850
 F 0 "J4" V 6700 3850 50  0000 R CNN
 F 1 "DC" V 6800 3850 50  0000 R CNN
-F 2 "_Custom:PinHeader_1x02_P2.54mm_Vertical_bordered" H 6900 3850 50  0001 C CNN
+F 2 "_Custom:Preci-dip_PinHeader_1x02_rect" H 6900 3850 50  0001 C CNN
 F 3 "~" H 6900 3850 50  0001 C CNN
 	1    6900 3850
 	0    1    1    0   
